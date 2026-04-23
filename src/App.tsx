@@ -409,7 +409,7 @@ const BotCTA = () => {
         <div className="inline-flex items-center justify-center size-20 rounded-full bg-primary/20 text-primary mb-8 shadow-xl shadow-primary/20">
           <Phone size={40} />
         </div>
-        <h3 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+        <h3 className="text-4xl md:text-5xl font-light text-white mb-6 leading-tight">
           ¿Ya hablaste con nuestro agente Nodox-Voice Notarías?
         </h3>
         <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
@@ -432,7 +432,7 @@ const CRM = () => {
     <section id="crm" className="py-24 px-6 bg-slate-950/50">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-primary font-bold uppercase tracking-widest text-lg md:text-xl mb-4">Integraciones</h2>
-        <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">Integración con CRMs</h3>
+        <h3 className="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6 leading-tight">Integración con CRMs</h3>
         <p className="text-slate-400 text-lg max-w-3xl mx-auto mb-12">
           Nodox-Voice está preparado para interactuar con los sistemas de gestión y CRMs comerciales más utilizados. Sincronizamos la información de tus clientes y citas de forma automática para mantener el control total de tu operación.
         </p>
