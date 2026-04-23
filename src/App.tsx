@@ -132,7 +132,7 @@ const Hero = ({ onContactClick }: { onContactClick: () => void }) => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight text-white px-4"
+            className="text-5xl md:text-7xl lg:text-8xl font-light leading-[1.1] tracking-tight text-white px-4"
           >
             Impulsa tu Notaría con <br className="hidden md:block" /> Nodox-Voice, la IA que <br/>
             <AnimatePresence mode="wait">
@@ -215,7 +215,7 @@ const Comparison = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-primary font-bold uppercase tracking-widest text-lg md:text-xl mb-4">Análisis</h2>
-          <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Atención Tradicional vs Agente IA</h3>
+          <h3 className="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6">Atención Tradicional vs Agente IA</h3>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -307,7 +307,7 @@ const Features = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center flex flex-col items-center gap-4 mb-16">
           <h2 className="text-primary font-bold uppercase tracking-widest text-lg md:text-xl">Funcionalidades</h2>
-          <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold max-w-4xl text-white">Lo que hace Nodox-Voice por tu Notaría</h3>
+          <h3 className="text-4xl md:text-5xl lg:text-6xl font-light max-w-4xl text-white">Lo que hace Nodox-Voice por tu Notaría</h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -359,7 +359,7 @@ const ProblemSolution = () => {
         {/* El Problema */}
         <div id="problema" className="text-center max-w-3xl mx-auto">
           <h2 className="text-primary font-bold uppercase tracking-widest text-lg md:text-xl mb-4">El Problema</h2>
-          <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">El fin del caos telefónico en tu Notaría</h3>
+          <h3 className="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6 leading-tight">El fin del caos telefónico en tu Notaría</h3>
           <p className="text-slate-400 text-lg leading-relaxed">
             ¿Tus clientes cuelgan frustrados porque nadie les atiende? Es el problema de siempre: llamadas que se pierden en transferencias a extensiones vacías o clientes que abandonan tras minutos de espera. Nodox-Voice elimina estos cuellos de botella, atendiendo cada llamada al primer timbre y asegurando que ningún trámite se pierda por falta de atención.
           </p>
@@ -370,7 +370,7 @@ const ProblemSolution = () => {
           <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] bg-primary/10 blur-[120px] rounded-full pointer-events-none" />
           
           <h2 className="text-primary font-bold uppercase tracking-widest text-lg md:text-xl mb-4 relative z-10">La Solución Nodox</h2>
-          <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 relative z-10 leading-tight">Delega lo repetitivo a la IA</h3>
+          <h3 className="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6 relative z-10 leading-tight">Delega lo repetitivo a la IA</h3>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto mb-16 relative z-10">
             Nodox-Voice atiende tus llamadas 24/7. Filtra, responde y resuelve lo rutinario. Solo transfiere las llamadas que realmente requieren a un humano.
           </p>
