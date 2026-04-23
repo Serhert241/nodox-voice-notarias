@@ -185,7 +185,7 @@ const Hero = ({ onContactClick }: { onContactClick: () => void }) => {
             playsInline 
             className="h-auto block max-w-full max-h-[70vh] md:max-h-[650px] mx-auto"
           >
-            <source src="/demo.mp4" type="video/mp4" />
+            <source src="/demo_web.mp4" type="video/mp4" />
             <source src="/demo.mov" type="video/quicktime" />
             Tu navegador no soporta videos.
           </video>
